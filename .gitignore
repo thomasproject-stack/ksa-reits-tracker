@@ -1,0 +1,27 @@
+# Scraped output — never commit (this repo is code-only)
+reit_list.json
+reit_data.json
+*.xlsx
+*.xls
+*.csv
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Editor / OS / backups
+*.bak
+*.bak-*
+.DS_Store
+.idea/
+.vscode/
